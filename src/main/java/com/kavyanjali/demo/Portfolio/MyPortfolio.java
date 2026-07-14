@@ -29,7 +29,8 @@ public class MyPortfolio {
     @GetMapping("/education")
     public String Education(){
         return """
-                
+                <h2> Lovely Professional University</h2>
+                <h3> Bachelors' of Technology, CSE | CGPA - 7.40</h3>
                 """;
     }
 
