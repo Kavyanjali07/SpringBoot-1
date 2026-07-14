@@ -36,7 +36,7 @@ public class MyPortfolio {
     @GetMapping("/project")
     public String Projects(){
         return """
-                
+                <h1></h1>
                 """;
     }
 }
