@@ -37,7 +37,11 @@ public class MyPortfolio {
     @GetMapping("/project")
     public String Projects(){
         return """
-                <h1></h1>
+                <h1>PROJECTS</h1>
+                <h2> 1. Dynamic Firewall Rule Generator</h2>
+                <h3> Tech stack - Python, nftables </h3>
+                <h2> 2. ClarityBot</h2>
+                <h3> Tech stack: Python, OpenRouter API, Deepseek-v3 </h3> 
                 """;
     }
 }
